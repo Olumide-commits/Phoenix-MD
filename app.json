@@ -56,6 +56,21 @@
       "required": false,
       "value": "public"
     },
+    "MENTION": {
+      "description": "Enter true For Mention Audio Otherwise Type false",
+      "required": false,
+      "value": "false"
+    },
+    "MENTION_DATA": {
+      "description": "Enter Mention Data For Mention Audio",
+      "required": false,
+      "value": "01:43 ━━━●───── 03:50;⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ⇆;919074692450;https://graph.org/file/63942461d4b8d78b360d3.jpg"
+    },
+    "MENTION_AUDIO": {
+      "description": "Enter Audio Urls For Mention Audio",
+      "required": false,
+      "value": "https://i.imgur.com/NCifJWe.mp4;https://graph.org/file/ecf0772cb95111796848c.mp4"
+    },
     "HEROKU_APP_NAME": {
       "description": "Enter Your Heroku App Name Same As Above You Entered",
       "required": true
@@ -64,8 +79,18 @@
       "description": "Enter Your Heroku Account Api Key. Get It From https://dashboard.heroku.com/account",
       "required": true
     },
+    "AUTO_BIO": {
+  "description": "If You Want To Set Automatic Bio Type true. Otherwise, Type false",
+  "value": "false",
+  "required": false
+   },
     "AUTO_REACT": {
   "description": "If You Want To React Automatically To Messages Type true. Otherwise, Type false",
+  "value": "false",
+  "required": false
+   },
+    "AUTO_READ_MSG": {
+  "description": "If You Want To Read Messages Automatically Type true. Otherwise, Type false",
   "value": "false",
   "required": false
    },
